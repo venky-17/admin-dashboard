@@ -129,7 +129,7 @@ const DashBoard = () => {
         </thead>
 
         <tbody>
-          {isSearchOn ? filteredUsers.map((user) => (
+          {isSearchOn ? filteredUsers.slice((currentPage - 1) * 10, currentPage * 10).map((user) => (
             <tr style={{ backgroundColor: selectedUsers.includes(user.id) ? "#d3d3d3" : "" }} key={user.id}>
               <th>
                 <input type="checkbox"
