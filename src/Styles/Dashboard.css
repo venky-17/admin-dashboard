@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.table{
+    width:100%;
+    font-size: 18px;
+    border: 1px solid black;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: .5px;
+    
+    
+
+}
+thead{
+   
+    padding: 6px 9px;
+}
+tr{
+    background-color: beige;
+    border: none;
+}
+th{
+    padding: 10px 15px;
+    border-bottom: 1px solid black;
+}
+.colTitle{
+    font-size: 18px;
+    font-weight:500;
+}
+input[type="checkbox"] {
+    height: 22px;
+    width: 22px;
+    border-radius: 8px;
+  }
+  
+  .actionBtn {
+    width: auto;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: red;
+    border: none;
+    background: white;
+  }
+ 
+  .actionBtn .save{
+    padding-left: 3px 9px;
+    font-size: 20px;
+  }
+  .searchBar{
+    display: flex;
+    
+    justify-content: space-between;
+    
+  }
+
+  .deleteAllBtn{
+    justify-content: center;
+    align-self: center;
+    
+    border: none;
+    background-color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    
+  }
+  .editInput{
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+
+  }
+  .selected{
+    background-color: grey;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
+.selectedCount{
+
+    color: black;
+    font-style: 28px;
+    margin-top: 10px;
+}
